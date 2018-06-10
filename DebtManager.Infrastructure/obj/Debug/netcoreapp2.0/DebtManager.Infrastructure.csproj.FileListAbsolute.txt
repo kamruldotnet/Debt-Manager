@@ -1,0 +1,14 @@
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Infrastructure\bin\Debug\netcoreapp2.0\DebtManager.Infrastructure.deps.json
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Infrastructure\bin\Debug\netcoreapp2.0\DebtManager.Infrastructure.dll
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Infrastructure\bin\Debug\netcoreapp2.0\DebtManager.Infrastructure.pdb
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Infrastructure\bin\Debug\netcoreapp2.0\DebtManager.Core.dll
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Infrastructure\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Infrastructure\bin\Debug\netcoreapp2.0\DebtManager.Core.pdb
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Infrastructure\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.xml
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.csprojAssemblyReference.cache
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.AssemblyInfo.cs
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.csproj.CopyComplete
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.dll
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.pdb

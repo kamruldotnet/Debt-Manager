@@ -1,0 +1,16 @@
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Core.dll
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Infrastructure.dll
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Infrastructure.pdb
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Core.pdb
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.csprojAssemblyReference.cache
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.csproj.CoreCompileInputs.cache
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.AssemblyInfoInputs.cache
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.AssemblyInfo.cs
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.csproj.CopyComplete
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.dll
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.pdb
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Web.deps.json
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Web.runtimeconfig.json
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Web.runtimeconfig.dev.json
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Web.dll
+C:\Users\kamru\source\repos\Debt Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Web.pdb
