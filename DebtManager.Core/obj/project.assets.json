@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\kamru\\source\\repos\\Debt Manager\\DebtManager.Core\\DebtManager.Core.csproj",
+      "projectUniqueName": "C:\\Users\\kamru\\Desktop\\Debt-Manager\\DebtManager.Core\\DebtManager.Core.csproj",
       "projectName": "DebtManager.Core",
-      "projectPath": "c:\\users\\kamru\\source\\repos\\Debt Manager\\DebtManager.Core\\DebtManager.Core.csproj",
+      "projectPath": "C:\\Users\\kamru\\Desktop\\Debt-Manager\\DebtManager.Core\\DebtManager.Core.csproj",
       "packagesPath": "C:\\Users\\kamru\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\kamru\\source\\repos\\Debt Manager\\DebtManager.Core\\obj\\",
+      "outputPath": "C:\\Users\\kamru\\Desktop\\Debt-Manager\\DebtManager.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

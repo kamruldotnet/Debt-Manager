@@ -7,3 +7,12 @@ C:\Users\kamru\source\repos\Debt Manager\DebtManager.Core\obj\Debug\netcoreapp2.
 C:\Users\kamru\source\repos\Debt Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.dll
 C:\Users\kamru\source\repos\Debt Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.pdb
 C:\Users\kamru\source\repos\Debt Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.csprojAssemblyReference.cache
+C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Core\bin\Debug\netcoreapp2.0\DebtManager.Core.deps.json
+C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Core\bin\Debug\netcoreapp2.0\DebtManager.Core.dll
+C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Core\bin\Debug\netcoreapp2.0\DebtManager.Core.pdb
+C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.csprojAssemblyReference.cache
+C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.AssemblyInfoInputs.cache
+C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.AssemblyInfo.cs
+C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.dll
+C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.pdb

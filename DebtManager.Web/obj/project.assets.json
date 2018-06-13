@@ -13290,11 +13290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kamru\\source\\repos\\Debt Manager\\DebtManager.Web\\DebtManager.Web.csproj",
+      "projectUniqueName": "C:\\Users\\kamru\\Desktop\\Debt-Manager\\DebtManager.Web\\DebtManager.Web.csproj",
       "projectName": "DebtManager.Web",
-      "projectPath": "C:\\Users\\kamru\\source\\repos\\Debt Manager\\DebtManager.Web\\DebtManager.Web.csproj",
+      "projectPath": "C:\\Users\\kamru\\Desktop\\Debt-Manager\\DebtManager.Web\\DebtManager.Web.csproj",
       "packagesPath": "C:\\Users\\kamru\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kamru\\source\\repos\\Debt Manager\\DebtManager.Web\\obj\\",
+      "outputPath": "C:\\Users\\kamru\\Desktop\\Debt-Manager\\DebtManager.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13313,8 +13313,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\kamru\\source\\repos\\Debt Manager\\DebtManager.Infrastructure\\DebtManager.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\kamru\\source\\repos\\Debt Manager\\DebtManager.Infrastructure\\DebtManager.Infrastructure.csproj"
+            "C:\\Users\\kamru\\Desktop\\Debt-Manager\\DebtManager.Infrastructure\\DebtManager.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\kamru\\Desktop\\Debt-Manager\\DebtManager.Infrastructure\\DebtManager.Infrastructure.csproj"
             }
           }
         }

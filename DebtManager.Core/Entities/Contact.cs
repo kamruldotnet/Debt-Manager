@@ -8,9 +8,6 @@ namespace DebtManager.Core.Entities
 {
     public class Contact : Entity
     {
-        [Key]
-        public int Id { get; set; }
-
         [Required]
         [Display(Name="Name")]
         public string Name { get; set; }

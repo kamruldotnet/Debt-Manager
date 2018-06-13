@@ -9,8 +9,6 @@ namespace DebtManager.Core.Entities
 {
     public class TheirDebt : Entity
     {
-        public int Id { get; set; }
-
         [Required]
         [ForeignKey("Id")]
         [Display(Name ="Contact Name")]
