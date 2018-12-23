@@ -16,3 +16,11 @@ C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\Deb
 C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.AssemblyInfo.cs
 C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.dll
 C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.pdb
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\bin\Debug\netcoreapp2.0\DebtManager.Core.deps.json
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\bin\Debug\netcoreapp2.0\DebtManager.Core.dll
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\bin\Debug\netcoreapp2.0\DebtManager.Core.pdb
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.csproj.CoreCompileInputs.cache
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.AssemblyInfoInputs.cache
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.AssemblyInfo.cs
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.dll
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.pdb

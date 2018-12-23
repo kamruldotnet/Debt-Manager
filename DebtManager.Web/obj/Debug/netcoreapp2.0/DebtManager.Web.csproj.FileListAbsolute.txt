@@ -30,3 +30,19 @@ C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\Debt
 C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.csproj.CopyComplete
 C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.dll
 C:\Users\kamru\Desktop\Debt-Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.pdb
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Web.deps.json
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Web.runtimeconfig.json
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Web.runtimeconfig.dev.json
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Web.dll
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Web.pdb
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Core.dll
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Infrastructure.dll
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Core.pdb
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\bin\Debug\netcoreapp2.0\DebtManager.Infrastructure.pdb
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.csprojAssemblyReference.cache
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.csproj.CoreCompileInputs.cache
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.AssemblyInfoInputs.cache
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.AssemblyInfo.cs
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.csproj.CopyComplete
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.dll
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Web\obj\Debug\netcoreapp2.0\DebtManager.Web.pdb
