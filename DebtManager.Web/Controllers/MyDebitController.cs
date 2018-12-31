@@ -62,6 +62,9 @@ namespace DebtManager.Web.Controllers
 
             try
             {
+                myDebt.CreateAt = DateTime.Now;
+                myDebt.UpdateAt = DateTime.Now;
+                myDebt.Status = true;
                 await _myDebitRepository.AddAsync(myDebt);
                 return RedirectToAction(nameof(Index));
             }

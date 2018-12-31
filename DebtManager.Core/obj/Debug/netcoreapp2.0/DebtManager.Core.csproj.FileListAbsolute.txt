@@ -24,3 +24,4 @@ F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtM
 F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.AssemblyInfo.cs
 F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.dll
 F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.pdb
+F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.csprojAssemblyReference.cache
