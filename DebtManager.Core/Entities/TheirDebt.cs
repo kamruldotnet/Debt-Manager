@@ -19,6 +19,8 @@ namespace DebtManager.Core.Entities
 
         [Required]
         public string Currency { get; set; }
+
+        [Display(Name="Date")]
         public DateTime CreateAt { get; set; }
         public DateTime UpdateAt { get; set; }
         public bool Status { get; set; }

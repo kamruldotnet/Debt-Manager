@@ -22,6 +22,7 @@ namespace DebtManager.Core.Entities
         public string Currency { get; set; }
 
         [DataType(DataType.Date)]
+        [Display(Name = "Date")]
         public DateTime CreateAt { get; set; }
 
         [DataType(DataType.Date)]
