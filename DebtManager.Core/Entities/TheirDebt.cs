@@ -20,12 +20,15 @@ namespace DebtManager.Core.Entities
         [Required]
         public string Currency { get; set; }
 
-        [Display(Name="Date")]
-        public DateTime CreateAt { get; set; }
-        public DateTime UpdateAt { get; set; }
-        public bool Status { get; set; }
-
-        [Display(Name ="Comment")]
+        [Display(Name = "Comment")]
         public string Comment { get; set; }
+
+        [Display(Name="Date")]
+        [ScaffoldColumn(false)]
+        public DateTime CreateAt { get; set; }
+        [ScaffoldColumn(false)]
+        public DateTime UpdateAt { get; set; }
+        [ScaffoldColumn(false)]
+        public bool Status { get; set; }
     }
 }

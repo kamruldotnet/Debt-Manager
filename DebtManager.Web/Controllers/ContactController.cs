@@ -42,7 +42,6 @@ namespace DebtManager.Web.Controllers
                 if (ModelState.IsValid)
                 {
                     await _contactRepository.AddAsync(contact);
-                    //await _contactRepository.SaveChangesAsync();
                     return RedirectToAction(nameof(Index));
                 }
                 else
