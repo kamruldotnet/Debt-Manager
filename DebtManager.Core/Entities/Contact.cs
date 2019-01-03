@@ -24,10 +24,14 @@ namespace DebtManager.Core.Entities
 
         [DataType(DataType.Date)]
         [Display(Name = "Date")]
+        [ScaffoldColumn(false)]
         public DateTime CreateAt { get; set; }
 
         [DataType(DataType.Date)]
+        [ScaffoldColumn(false)]
         public DateTime UpdateAt { get; set; }
+
+        [ScaffoldColumn(false)]
         public bool Status { get; set; }
     }
 }
