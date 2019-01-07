@@ -9,6 +9,8 @@ at first clone this application
 <code>
   git clone https://github.com/kmrul/DebtManager.git
  </code>
+ 
+ 
 
 open this application as visual studio 2017 or higher
 
