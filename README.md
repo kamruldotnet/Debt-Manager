@@ -6,7 +6,9 @@ ASP.NET Core MVC with CLEAN Architecture and Entity Framework
 
 at first clone this application
 
-git clone https://github.com/kmrul/DebtManager.git
+<code>
+  git clone https://github.com/kmrul/DebtManager.git
+ </code>
 
 open this application as visual studio 2017 or higher
 
