@@ -13659,11 +13659,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\@OpenSource Lover\\Debt-Manager\\DebtManager.Web\\DebtManager.Web.csproj",
+      "projectUniqueName": "F:\\@OpenSource Lover\\DebtManager\\DebtManager.Web\\DebtManager.Web.csproj",
       "projectName": "DebtManager.Web",
-      "projectPath": "F:\\@OpenSource Lover\\Debt-Manager\\DebtManager.Web\\DebtManager.Web.csproj",
+      "projectPath": "F:\\@OpenSource Lover\\DebtManager\\DebtManager.Web\\DebtManager.Web.csproj",
       "packagesPath": "C:\\Users\\kamru\\.nuget\\packages\\",
-      "outputPath": "F:\\@OpenSource Lover\\Debt-Manager\\DebtManager.Web\\obj\\",
+      "outputPath": "F:\\@OpenSource Lover\\DebtManager\\DebtManager.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13682,11 +13682,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "F:\\@OpenSource Lover\\Debt-Manager\\DebtManager.Core\\DebtManager.Core.csproj": {
-              "projectPath": "F:\\@OpenSource Lover\\Debt-Manager\\DebtManager.Core\\DebtManager.Core.csproj"
+            "F:\\@OpenSource Lover\\DebtManager\\DebtManager.Core\\DebtManager.Core.csproj": {
+              "projectPath": "F:\\@OpenSource Lover\\DebtManager\\DebtManager.Core\\DebtManager.Core.csproj"
             },
-            "F:\\@OpenSource Lover\\Debt-Manager\\DebtManager.Infrastructure\\DebtManager.Infrastructure.csproj": {
-              "projectPath": "F:\\@OpenSource Lover\\Debt-Manager\\DebtManager.Infrastructure\\DebtManager.Infrastructure.csproj"
+            "F:\\@OpenSource Lover\\DebtManager\\DebtManager.Infrastructure\\DebtManager.Infrastructure.csproj": {
+              "projectPath": "F:\\@OpenSource Lover\\DebtManager\\DebtManager.Infrastructure\\DebtManager.Infrastructure.csproj"
             }
           }
         }

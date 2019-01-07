@@ -12,17 +12,31 @@ namespace DebtManager.Web.Controllers
     public class ContactController : Controller
     {
         private readonly IAsyncRepository<Contact> _contactRepository;
-        
 
-        public ContactController(IAsyncRepository<Contact>  repository)
+
+        public ContactController(IAsyncRepository<Contact> repository)
         {
             _contactRepository = repository;
         }
+
 
         [HttpGet]
         public async Task<IActionResult> Index()
         {
             var contactList = await _contactRepository.ListAllAsync();
+            if (contactList.Count == 0)
+            {
+                var contact = new Contact();
+                contact.Name = "Kamrul Hasan";
+                contact.Phone = "01722329228";
+                contact.Email = "khasancsit@gmail.com";
+                contact.Address = "Dhaka, Bangladesh";
+                contact.Status = true;
+                contact.CreateAt = DateTime.Now;
+                contact.UpdateAt = DateTime.Now;
+                await _contactRepository.AddAsync(contact);
+            }
+
             return View(contactList);
         }
 
@@ -55,16 +69,16 @@ namespace DebtManager.Web.Controllers
             }
         }
 
-        [HttpGet,ActionName("Edit")]
+        [HttpGet, ActionName("Edit")]
         public async Task<IActionResult> Edit(int id)
         {
-            if (id <=0)
+            if (id <= 0)
             {
                 return RedirectToAction(nameof(Index));
             }
 
             var contactToUpdate = await _contactRepository.GetByIdAsync(id);
-            if(contactToUpdate == null)
+            if (contactToUpdate == null)
             {
                 return RedirectToAction(nameof(Index));
             }
@@ -79,7 +93,7 @@ namespace DebtManager.Web.Controllers
         {
             try
             {
-                if(id == contact.Id)
+                if (id == contact.Id)
                 {
                     contact.UpdateAt = DateTime.Now;
                     await _contactRepository.UpdateAsync(contact);
@@ -114,7 +128,7 @@ namespace DebtManager.Web.Controllers
         }
 
         // Delete/Contact/5
-       [HttpGet]
+        [HttpGet]
         public async Task<IActionResult> Delete(int id)
         {
             if (id <= 0)
@@ -123,7 +137,7 @@ namespace DebtManager.Web.Controllers
             }
 
             var contact = await _contactRepository.GetByIdAsync(id);
-            if(contact == null)
+            if (contact == null)
             {
                 return RedirectToAction(nameof(Index));
             }
@@ -137,7 +151,7 @@ namespace DebtManager.Web.Controllers
         {
             try
             {
-                if(id== contact.Id)
+                if (id == contact.Id)
                 {
                     await _contactRepository.DeleteAsync(contact);
                 }

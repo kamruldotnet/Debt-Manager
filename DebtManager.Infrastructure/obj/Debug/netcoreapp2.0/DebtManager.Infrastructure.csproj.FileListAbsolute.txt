@@ -38,3 +38,15 @@ F:\@OpenSource Lover\Debt-Manager\DebtManager.Infrastructure\obj\Debug\netcoreap
 F:\@OpenSource Lover\Debt-Manager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.csproj.CopyComplete
 F:\@OpenSource Lover\Debt-Manager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.dll
 F:\@OpenSource Lover\Debt-Manager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.pdb
+F:\@OpenSource Lover\DebtManager\DebtManager.Infrastructure\bin\Debug\netcoreapp2.0\DebtManager.Infrastructure.deps.json
+F:\@OpenSource Lover\DebtManager\DebtManager.Infrastructure\bin\Debug\netcoreapp2.0\DebtManager.Infrastructure.dll
+F:\@OpenSource Lover\DebtManager\DebtManager.Infrastructure\bin\Debug\netcoreapp2.0\DebtManager.Infrastructure.pdb
+F:\@OpenSource Lover\DebtManager\DebtManager.Infrastructure\bin\Debug\netcoreapp2.0\DebtManager.Core.dll
+F:\@OpenSource Lover\DebtManager\DebtManager.Infrastructure\bin\Debug\netcoreapp2.0\DebtManager.Core.pdb
+F:\@OpenSource Lover\DebtManager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.csprojAssemblyReference.cache
+F:\@OpenSource Lover\DebtManager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.csproj.CoreCompileInputs.cache
+F:\@OpenSource Lover\DebtManager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.AssemblyInfoInputs.cache
+F:\@OpenSource Lover\DebtManager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.AssemblyInfo.cs
+F:\@OpenSource Lover\DebtManager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.csproj.CopyComplete
+F:\@OpenSource Lover\DebtManager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.dll
+F:\@OpenSource Lover\DebtManager\DebtManager.Infrastructure\obj\Debug\netcoreapp2.0\DebtManager.Infrastructure.pdb
