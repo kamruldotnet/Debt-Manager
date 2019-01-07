@@ -24,3 +24,12 @@ F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtM
 F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.AssemblyInfo.cs
 F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.dll
 F:\@OpenSource Lover\Debt-Manager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.pdb
+F:\@OpenSource Lover\DebtManager\DebtManager.Core\bin\Debug\netcoreapp2.0\DebtManager.Core.deps.json
+F:\@OpenSource Lover\DebtManager\DebtManager.Core\bin\Debug\netcoreapp2.0\DebtManager.Core.dll
+F:\@OpenSource Lover\DebtManager\DebtManager.Core\bin\Debug\netcoreapp2.0\DebtManager.Core.pdb
+F:\@OpenSource Lover\DebtManager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.csprojAssemblyReference.cache
+F:\@OpenSource Lover\DebtManager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.csproj.CoreCompileInputs.cache
+F:\@OpenSource Lover\DebtManager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.AssemblyInfoInputs.cache
+F:\@OpenSource Lover\DebtManager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.AssemblyInfo.cs
+F:\@OpenSource Lover\DebtManager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.dll
+F:\@OpenSource Lover\DebtManager\DebtManager.Core\obj\Debug\netcoreapp2.0\DebtManager.Core.pdb
