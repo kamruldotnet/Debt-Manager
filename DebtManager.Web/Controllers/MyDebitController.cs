@@ -6,6 +6,7 @@ using DebtManager.Core.Entities;
 using DebtManager.Core.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace DebtManager.Web.Controllers
 {
@@ -13,10 +14,12 @@ namespace DebtManager.Web.Controllers
     {
 
         private readonly IAsyncRepository<MyDebit> _myDebitRepository;
+        private readonly IAsyncRepository<Contact> _myContactDebitRepository;
 
-        public MyDebitController(IAsyncRepository<MyDebit> repository)
+        public MyDebitController(IAsyncRepository<MyDebit> repository, IAsyncRepository<Contact> contactRepository)
         {
             _myDebitRepository = repository;
+            _myContactDebitRepository = contactRepository;
         }
 
         // GET: MyDebt
@@ -45,8 +48,11 @@ namespace DebtManager.Web.Controllers
         }
 
         // GET: MyDebt/Create
-        public ActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            var contactList = await _myContactDebitRepository.ListAllAsync();
+            SelectList list = new SelectList(contactList, "Id", "Name");
+            ViewBag.debtId = list;
             return View();
         }
 

@@ -5,19 +5,22 @@ using System.Threading.Tasks;
 using DebtManager.Core.Entities;
 using DebtManager.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace DebtManager.Web.Controllers
 {
     public class TheirDebitController : Controller
     {
         private readonly IAsyncRepository<TheirDebt> _theirDebitRepository;
+        private readonly IAsyncRepository<Contact> _myContactDebitRepository;
 
 
-        public TheirDebitController(IAsyncRepository<TheirDebt> repository)
+        public TheirDebitController(IAsyncRepository<TheirDebt> repository, IAsyncRepository<Contact> contactRepository)
         {
             _theirDebitRepository = repository;
+            _myContactDebitRepository = contactRepository;
         }
-        
+
 
         public async Task<IActionResult> Index()
         {
@@ -29,13 +32,13 @@ namespace DebtManager.Web.Controllers
         [HttpGet]
         public async Task<IActionResult> Details(int id)
         {
-            if(id <= 0)
+            if (id <= 0)
             {
                 return RedirectToAction(nameof(Index));
             }
 
             var theirDebit = await _theirDebitRepository.GetByIdAsync(id);
-            if(theirDebit == null)
+            if (theirDebit == null)
             {
                 return RedirectToAction(nameof(Index));
             }
@@ -47,6 +50,9 @@ namespace DebtManager.Web.Controllers
         // GET: CREATE 
         public async Task<IActionResult> Create()
         {
+            var contactList = await _myContactDebitRepository.ListAllAsync();
+            SelectList list = new SelectList(contactList, "Id", "Name");
+            ViewBag.debtId = list;
             return View();
         }
 
@@ -56,7 +62,7 @@ namespace DebtManager.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(TheirDebt theirDebt)
         {
-            if(theirDebt == null)
+            if (theirDebt == null)
             {
                 return RedirectToAction(nameof(Index));
             }
@@ -76,13 +82,13 @@ namespace DebtManager.Web.Controllers
         // GET: THEIR DEBIT/EDIT
         public async Task<IActionResult> Edit(int id)
         {
-            if(id <= 0)
+            if (id <= 0)
             {
                 return RedirectToAction(nameof(Index));
             }
 
             var theirDebit = await _theirDebitRepository.GetByIdAsync(id);
-            if(theirDebit == null)
+            if (theirDebit == null)
             {
                 return RedirectToAction(nameof(id));
             }
@@ -92,9 +98,9 @@ namespace DebtManager.Web.Controllers
 
 
         // POST: TheirDebit/EDIT
-        public async Task<IActionResult> Edit(int id,TheirDebt theirDebt)
+        public async Task<IActionResult> Edit(int id, TheirDebt theirDebt)
         {
-            if(id != theirDebt.Id)
+            if (id != theirDebt.Id)
             {
                 return RedirectToAction(nameof(Index));
             }
@@ -113,13 +119,13 @@ namespace DebtManager.Web.Controllers
         //GET: TheirDebit/Delete/5
         public async Task<IActionResult> Delete(int id)
         {
-            if(id <= 0)
+            if (id <= 0)
             {
                 return RedirectToAction(nameof(Index));
             }
 
             var deleteItem = await _theirDebitRepository.GetByIdAsync(id);
-            if(deleteItem == null)
+            if (deleteItem == null)
             {
                 return RedirectToAction(nameof(Index));
             }
@@ -133,7 +139,7 @@ namespace DebtManager.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id, TheirDebt theirDebt)
         {
-            if(id != theirDebt.Id)
+            if (id != theirDebt.Id)
             {
                 return RedirectToAction(nameof(Index));
             }
@@ -141,6 +147,6 @@ namespace DebtManager.Web.Controllers
             await _theirDebitRepository.DeleteAsync(theirDebt);
             return RedirectToAction(nameof(Index));
         }
-       
+
     }
 }

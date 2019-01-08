@@ -24,7 +24,7 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="debtId" class="control-label"></label>
-                <input asp-for="debtId" class="form-control" />
+                @Html.DropDownList("debtId", ViewBag.debtId as SelectList, "-- Select --", new { @class = "form-control" });
                 <span asp-validation-for="debtId" class="text-danger"></span>
             </div>
             <div class="form-group">
