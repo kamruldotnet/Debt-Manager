@@ -26,6 +26,7 @@ namespace DebtManager.Core.Entities
         public DateTime CreateAt { get; set; }
 
         [DataType(DataType.Date)]
+        [Display(Name ="Last Modified")]
         public DateTime UpdateAt { get; set; }
 
         public bool Status { get; set; }

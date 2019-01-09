@@ -27,6 +27,7 @@ namespace DebtManager.Core.Entities
         [ScaffoldColumn(false)]
         public DateTime CreateAt { get; set; }
         [ScaffoldColumn(false)]
+        [Display(Name ="Last Modified")]
         public DateTime UpdateAt { get; set; }
         [ScaffoldColumn(false)]
         public bool Status { get; set; }

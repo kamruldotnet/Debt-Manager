@@ -3,9 +3,19 @@
 @{
     ViewData["Title"] = "Create";
 }
+<section class="header-section">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Create My Debit</h2>
+        </div>
+        <div class="col-md-6 ">
+            <p class="text-right">
+                <a asp-action="index" class="btn btn-primary">Back</a>
+            </p>
+        </div>
+    </div>
+</section>
 
-<h2>Add New My Debit</h2>
-<hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
@@ -23,7 +33,9 @@
             </div>
             <div class="form-group">
                 <label asp-for="Currency" class="control-label"></label>
-                <input asp-for="Currency" class="form-control" />
+                <select asp-for="Currency" class="form-control">
+                    <option>$</option>
+                </select>
                 <span asp-validation-for="Currency" class="text-danger"></span>
             </div>
 
@@ -34,14 +46,12 @@
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-default" />
+                <a asp-action="Index" class="btn btn-default">Cancel</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

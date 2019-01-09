@@ -14,12 +14,12 @@ namespace DebtManager.Web.Controllers
     {
 
         private readonly IAsyncRepository<MyDebit> _myDebitRepository;
-        private readonly IAsyncRepository<Contact> _myContactDebitRepository;
+        private readonly IAsyncRepository<Contact> _myContactRepository;
 
         public MyDebitController(IAsyncRepository<MyDebit> repository, IAsyncRepository<Contact> contactRepository)
         {
             _myDebitRepository = repository;
-            _myContactDebitRepository = contactRepository;
+            _myContactRepository = contactRepository;
         }
 
         // GET: MyDebt
@@ -34,23 +34,23 @@ namespace DebtManager.Web.Controllers
         [HttpGet]
         public async Task<IActionResult> Details(int id)
         {
-            if(id<=0)
+            if (id <= 0)
             {
                 return RedirectToAction(nameof(Index));
             }
             var myDebtDetail = await _myDebitRepository.GetByIdAsync(id);
-            if(myDebtDetail == null)
+            if (myDebtDetail == null)
             {
                 return RedirectToAction(nameof(Index));
             }
-            
+
             return View(myDebtDetail);
         }
 
         // GET: MyDebt/Create
         public async Task<IActionResult> Create()
         {
-            var contactList = await _myContactDebitRepository.ListAllAsync();
+            var contactList = await _myContactRepository.ListAllAsync();
             SelectList list = new SelectList(contactList, "Id", "Name");
             ViewBag.debtId = list;
             return View();
@@ -61,7 +61,7 @@ namespace DebtManager.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(MyDebit myDebt)
         {
-            if(myDebt == null)
+            if (myDebt == null)
             {
                 return RedirectToAction(nameof(Index));
             }
@@ -102,7 +102,7 @@ namespace DebtManager.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, MyDebit mydebit)
         {
-            if(id != mydebit.Id)
+            if (id != mydebit.Id)
             {
                 return RedirectToAction(nameof(Index));
             }
@@ -122,13 +122,13 @@ namespace DebtManager.Web.Controllers
         // GET: MyDebt/Delete/5
         public async Task<IActionResult> Delete(int id)
         {
-            if(id <= 0)
+            if (id <= 0)
             {
                 return RedirectToAction(nameof(Index));
             }
 
             var deleteItem = await _myDebitRepository.GetByIdAsync(id);
-            if(deleteItem== null)
+            if (deleteItem == null)
             {
                 return RedirectToAction(nameof(Index));
             }
@@ -141,7 +141,7 @@ namespace DebtManager.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id, MyDebit myDebit)
         {
-            if(id != myDebit.Id)
+            if (id != myDebit.Id)
             {
                 return RedirectToAction(nameof(Index));
             }

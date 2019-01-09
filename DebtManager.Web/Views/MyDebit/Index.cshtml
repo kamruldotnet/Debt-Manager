@@ -22,27 +22,21 @@
 <table class="table">
     <thead>
         <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.debtId)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Amount)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Currency)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.CreateAt)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.UpdateAt)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Status)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Comment)
-                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.debtId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Currency)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comment)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdateAt)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -58,17 +52,12 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Currency)
             </td>
+
             <td>
-                @Html.DisplayFor(modelItem => item.CreateAt)
+                @Html.DisplayFor(modelItem => item.Comment)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.UpdateAt)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Comment)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
