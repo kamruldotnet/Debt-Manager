@@ -26,7 +26,9 @@ namespace DebtManager.Web.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var myDebitList = await _myDebitRepository.ListAllAsync();
+            //var myDebitList = await _myDebitRepository.ListAllAsync();
+
+            var myDebitList = _myDebitRepository.group
             return View(myDebitList);
         }
 
